@@ -1,0 +1,152 @@
+*{
+    box-sizing: border-box;
+    margin: 0px;
+    
+}
+a{
+    text-decoration: none;
+}
+.menu{
+    text-align: right;
+    position: sticky;
+    top: 0px;
+    z-index: 12;
+    background-color: rgb(253, 251, 251);
+}
+.menu li{
+    display: inline-block;
+    padding: 15px 15px;
+    font-size: 20px;
+}
+li a{
+    text-decoration: none;
+    color: black;
+}
+
+li .batton{
+    text-align: left;
+}
+.imgheader{
+    width: 100%;
+    height: auto;
+}
+.box{
+    position: relative;
+}
+
+.box h1{
+    position: static;
+    position: absolute;
+    bottom: 50%;
+    left: 0px;
+    right: 0px;
+    font-size: 50px;
+    font-style: initial;
+    text-align: center;
+    color: white;
+}
+.box b{
+    background-color: rgb(31, 28, 28);
+}
+
+.title{
+    font-size: 25px;
+    padding: 30px;
+}
+.col-1 {width: 8.33%;}
+.col-2 {width: 16.66%;}
+.col-3 {width: 25%;}
+.col-4 {width: 33.33%;}
+.col-5 {width: 41.66%;}
+.col-6 {width: 50%;}
+.col-7 {width: 58.33%;}
+.col-8 {width: 66.66%;}
+.col-9 {width: 75%;}
+.col-10 {width: 83.33%;}
+.col-11 {width: 91.66%;}
+.col-12 {width: 100%;}
+
+
+
+[class*="col-3"] {
+    float: left;
+    padding: 10px;
+}
+  [class*="col-3"] {
+    float: left;
+    padding: 10px; 
+  }
+  [class*="col-3"] {
+    float: left;
+    padding: 10px;
+  }
+  [class*="col-3"] {
+    float: left;
+    padding: 10px ;  
+  }
+
+.logo{
+float: left;
+padding: 14px;
+font-size: 24px;
+}
+.item{
+    position: relative;
+}
+.item .topbottom{
+position: absolute;
+left: 0;
+font-size: 20px;
+font-style: initial;
+text-align: left;
+color: white;
+background-color: black;
+padding: 5px 10px;
+}
+.item img{
+    max-width: 100%;
+    height: auto;
+}
+
+.textstyle{
+    text-align: left;
+    padding: 15px 15px 15px 0px;
+}
+.textfound{
+    padding: 0px 10px 10px 0px;
+}
+
+.contactbatton{
+    width: 100%;
+    padding: 10px;
+    font-size: 15px;
+}
+.titletext{
+    font-size: 25px;
+    padding: 60px;
+}
+
+.text{
+    font-size: 20px;
+    padding:10px 10px 10px 30px ;
+}
+input{
+    width: 95%;
+    margin-left: 25px ;
+    padding: 10px;
+    
+}
+.sendbutton{
+    padding: 8px ;
+    font-size: 15px;
+    width: 15%;
+    color: white;
+    background-color: black;
+}
+.about{
+    text-align: center;
+    color: white;
+    background-color: black;
+    padding: 18px ;
+}
+
